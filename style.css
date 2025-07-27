@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background-color: #0099cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0099cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077aa;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+}
